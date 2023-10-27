@@ -13,8 +13,6 @@ class TaskBase(BaseModel):
     **Параметры**
 
     * `username`: имя пользователя github
-    * `type`: тип
-    * `task_status_id`: One-To-Many
     * `create_date`: дата создания таска
     * `task_status`: статус таска
     """
